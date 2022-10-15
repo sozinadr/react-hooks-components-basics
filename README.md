@@ -168,8 +168,7 @@ This naming convention is important for a couple very good reasons:
 - More importantly, it's a [rule that we must follow][component capitalization]
   in order for React to render our components correctly.
 
-[component capitalization]:
-  https://reactjs.org/docs/jsx-in-depth.html#user-defined-components-must-be-capitalized
+[component capitalization]: https://reactjs.org/docs/jsx-in-depth.html#user-defined-components-must-be-capitalized
 
 For instance, if we defined our `Article` component using a lower-case letter,
 like this:
@@ -194,11 +193,6 @@ function App() {
     </div>
   );
 }
-
-// returns these DOM elements:
-// <div>
-//  <article />
-// </div>
 ```
 
 By naming it with a capital letter instead, we get the desired DOM
